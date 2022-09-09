@@ -1,0 +1,17 @@
+{
+  "name": "com.nmacadam.notate",
+  "version": "1.0.0",
+  "displayName": "Notate",
+  "description": "A note component for your inspector",
+  "documentationUrl": "https://github.com/nmacadam/notate",
+  "changelogUrl": "https://github.com/nmacadam/notate",
+  "licensesUrl": "https://github.com/nmacadam/notate",
+  "license": " MIT",
+  "keywords": [
+    "note", "comment"
+  ],
+  "author": {
+    "name": "Nathan MacAdam",
+    "url": "https://github.com/nmacadam"
+  }
+}

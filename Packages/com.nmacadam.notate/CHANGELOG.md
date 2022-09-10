@@ -1,6 +1,6 @@
-# Changelog
-All notable changes to this project will be documented in this file.
-Consider tagging an author on each change for future reference.
+# 1.0.0 (2022-09-10)
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+### Features
+
+* create Note component ([2ef012d](https://github.com/nmacadam/Notate/commit/2ef012db1b8b9cd50938904f4d463d251d959094))

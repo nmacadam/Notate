@@ -1,3 +1,10 @@
+# 1.0.0 (2022-09-10)
+
+
+### Features
+
+* create Note component ([2ef012d](https://github.com/nmacadam/Notate/commit/2ef012db1b8b9cd50938904f4d463d251d959094))
+
 # [1.2.0](https://github.com/nmacadam/upm-sample/compare/v1.1.0...v1.2.0) (2022-08-29)
 
 

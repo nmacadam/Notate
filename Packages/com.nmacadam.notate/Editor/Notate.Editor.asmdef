@@ -1,7 +1,9 @@
 {
     "name": "Notate.Editor",
     "rootNamespace": "Notate.Editor",
-    "references": [],
+    "references": [
+        "GUID:2242e05a966818847829aa895b6a388b"
+    ],
     "includePlatforms": [
         "Editor"
     ],

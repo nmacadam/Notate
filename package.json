@@ -8,7 +8,8 @@
   "licensesUrl": "https://github.com/nmacadam/notate",
   "license": " MIT",
   "keywords": [
-    "note", "comment"
+    "note",
+    "comment"
   ],
   "author": {
     "name": "Nathan MacAdam",

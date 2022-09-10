@@ -1,32 +1,23 @@
-# Sample
-Provide a brief, high-level explanation of the package.
+# Notate
+A note component for your inspector
 
-See [Documenting your Package](https://docs.unity3d.com/Manual/cus-document.html "Documenting your Package") for more details.
+Use the `Note` component to add in-inspector comments or documentation.  You can customize the note icon by right clicking, or by switching the inspector to Debug mode, and manually specifying a built in icon string.
 
-### Contents
-Include the location of important files you want the user to know about. For example, if this is a sample package containing textures, models, and materials separated by sample group, you might want to provide the folder location of each group.
+## Installation
+### Git
+This package can be installed with the Unity Package Manager by selecting the add package dropdown, clicking "Add package from git url...", and entering `https://github.com/nmacadam/Notate.git`.
 
-### Installation
-You can point to the official [Package Manager installation instructions](http://https://docs.unity3d.com/Manual/upm-ui-install.html "Package Manager installation instructions"), but if you have any special installation requirements, such as installing samples, add them here.
+Alternatively the package can be added directly to the Unity project's manifest.json by adding the following line:
+```
+{
+  "dependencies": {
+      ...
+      "com.bento.notate":"https://github.com/nmacadam/Notate.git"
+      ...
+  }
+}
+```
+For either option, you can specify a specific release by appending `#<release>` to the URL.
 
-### Requirements
-This is a good place to add hardware or software requirements, including which versions of the Unity Editor this package is compatible with.
-
-### Limitations
-If your package has any known limitations, you can list them here. If not, or if the limitations are trivial, exclude this section.
-
-### Workflows
-Include a list of steps that the user can easily follow that demonstrates how to use the feature. You can include screenshots to help describe how to use the feature.
-
-### Advanced Topics
-This is where you can provide detailed information about what you are providing to users. This is ideal if you don't want to overwhelm the user with too much information up front.
-
-### Reference
-If you have a user interface with a lot of properties, you can provide the details in a reference section. Using tables is a good way to provide quick access to specific property descriptions.
-
-### Samples
-For packages that include sample files, you can include detailed information on how the user can use these sample files in their projects and scenes.
-- **Example:** "Hello World" example scene demonstrating how you can include scenes in the package's `Samples` folder
-
-### Tutorials
-If you want to provide walkthroughs for complicated procedures, you can also add them here. Use step-by-step instructions and include images if they can help the user understand.
+### Manual
+Download this repository as a .zip file and extract it, open the Unity Package Manager window, and select "Add package from disk...".  Then select the package.json in the extracted folder.

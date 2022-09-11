@@ -8,21 +8,3 @@ You can further customize the following by putting the inspector into Debug mode
 - Icon (specify any built-in icon [by name](https://github.com/halak/unity-editor-icons))
 
 `Note` components are not included in build.
-
-## Installation
-### Git
-This package can be installed with the Unity Package Manager by selecting the add package dropdown, clicking "Add package from git url...", and entering `https://github.com/nmacadam/Notate.git#upm`.
-
-Alternatively the package can be added directly to the Unity project's manifest.json by adding the following line:
-```
-{
-  "dependencies": {
-      ...
-      "com.nmacadam.notate":"https://github.com/nmacadam/Notate.git#upm"
-      ...
-  }
-}
-```
-
-### Manual
-Download the [upm](https://github.com/nmacadam/Notate/tree/upm) branch of this repository as a .zip file and extract it, open the Unity Package Manager window, and select "Add package from disk...".  Then select the package.json in the extracted folder.

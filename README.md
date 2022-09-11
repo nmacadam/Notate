@@ -1,5 +1,9 @@
 # Notate
+[![openupm](https://img.shields.io/npm/v/com.nmacadam.notate?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.nmacadam.notate/) [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](/LICENSE) 
+
 A note component for your inspector.
+
+![Example](https://raw.githubusercontent.com/nmacadam/Notate/main/.github/example.png "Example")
 
 Use the `Note` component to add in-inspector comments or documentation.  Edit the note contents by clicking and typing like any text field, and customize the icon by clicking on it.
 You can further customize the following by putting the inspector into Debug mode:
@@ -9,20 +13,57 @@ You can further customize the following by putting the inspector into Debug mode
 
 `Note` components are not included in build.
 
-## Installation
-### Git
-This package can be installed with the Unity Package Manager by selecting the add package dropdown, clicking "Add package from git url...", and entering `https://github.com/nmacadam/Notate.git#upm`.
+## 🪛 Installation
+<details>
+  <summary>Install with <a href="https://openupm.com/packages/com.nmacadam.notate/">OpenUPM</a> via CLI or scoped registry (recommended)</summary>
+  
+  <br />
+  
+  &emsp;✨ *To add a package via [openupm-cli](https://github.com/openupm/openupm-cli), run the following command:*
+  
+  &emsp;`openupm install com.nmacadam.notate`
+  
+  <br />
+  
+  &emsp;🗃️ *To add a package via scoped registry:*
+  
+  - Open `Edit/Project Settings/Package Manager`
+  - Add a new Scoped Registry:
+    ```
+    Name: OpenUPM
+    URL:  https://package.openupm.com/
+    Scope(s): com.nmacadam
+    ```
+  - Open `Window/Package Manager`
+  - Click <kbd>+</kbd>
+  - <kbd>Add from Git URL</kbd>
+  - `com.nmacadam.notate` <kbd>Add</kbd>
+  
+</details>
+<details>
+  <summary>Install with Git URL</summary>
+  
+  <br />
+  
+  - Open `Window/Package Manager`
+  - Click <kbd>+</kbd>
+  - <kbd>Add from Git URL</kbd>
+  - `https://github.com/nmacadam/Notate.git#upm` <kbd>Add</kbd>
+  
+  &emsp;Note that you won't be able to receive updates through Package Manager this way, you'll have to update manually.
+  
+</details>
+<details>
+  <summary>Install manually</summary>
+  
+  <br />
+  
+  - Download the [upm](https://github.com/nmacadam/Notate/tree/upm) branch of this repository as a .zip file and extract it
+  - Open `Window/Package Manager`
+  - Click <kbd>+</kbd>
+  - <kbd>Add package from disk</kbd>
+  - Select `package.json` in the extracted folder
 
-Alternatively the package can be added directly to the Unity project's manifest.json by adding the following line:
-```
-{
-  "dependencies": {
-      ...
-      "com.nmacadam.notate":"https://github.com/nmacadam/Notate.git#upm"
-      ...
-  }
-}
-```
-
-### Manual
-Download the [upm](https://github.com/nmacadam/Notate/tree/upm) branch of this repository as a .zip file and extract it, open the Unity Package Manager window, and select "Add package from disk...".  Then select the package.json in the extracted folder.
+  &emsp;Note that you won't be able to receive updates through Package Manager this way, you'll have to update manually.
+  
+</details>
